@@ -7,6 +7,7 @@ import solutions from "../public/solutions.png";
 import about from "../public/about.png";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Envelope, EnvelopeFill, PhoneFill } from "react-bootstrap-icons";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <Header />
       <Container>
         <main>
-          <div className="row gx-4 gx-lg-5 align-items-center my-5">
+          <div className="row  align-items-center my-5 ">
             <div className="col-lg-7">
               <Image src={solutions} alt="" />
             </div>
@@ -42,14 +43,14 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="outline-info">
+          <div>
             <Row>
               <Col>
                 <h2 className="text-center">What We Offer</h2>
               </Col>
             </Row>
 
-            <div className="row gx-4 gx-lg-5" id="services">
+            <div className="row" id="services">
               <div className="col-md-4 mb-5">
                 <div className="card h-100 grow">
                   <div className="card-body">
@@ -104,22 +105,27 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <Row id="contact" className="mt-5 mb-5">
-            <Col className="d-flex align-items-center">
+          <Row id="contact" className="mt-5 mb-5 outline-info-bottom">
+            <Col lg={6} sm={12} className="text-center">
               <h2>How to reach us</h2>
             </Col>
-            <Col>
-              <p>
-                Lorem epsume oiw;ofnldscidfn ile
-                lkajsdnkajdfnalkjdnaekndjnelknekscnslejk
-                nkljadsnklasjbdalksjdbaslkjdbLorem epsume oiw;ofnldscidfn ile
-                lkajsdnkajdfnalkjdnaekndjnelknekscnslejk
-                nkljadsnklasjbdalksjdbaslkjdbLorem epsume oiw;ofnldscidfn ile
-                lkajsdnkajdfnalkjdnaekndjnelknekscnslejk
-                nkljadsnklasjbdalksjdbaslkjdbLorem epsume oiw;ofnldscidfn ile
-                lkajsdnkajdfnalkjdnaekndjnelknekscnslejk
-                nkljadsnklasjbdalksjdbaslkjdb
-              </p>
+            <Col lg={2} sm={4}>
+              <a
+                href="mailto:pbits@gmail.com"
+                className="btn btn-outline-secondary btn-block "
+              >
+                <EnvelopeFill />
+                Email
+              </a>
+            </Col>
+            <Col lg={2} sm={4}>
+              <a
+                href="tel:4708510317"
+                className="btn btn-outline-secondary btn-block"
+              >
+                <PhoneFill />
+                Call
+              </a>
             </Col>
           </Row>
           <Row id="about" className="d-flex align-items-center">
