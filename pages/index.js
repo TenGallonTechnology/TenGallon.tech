@@ -51,7 +51,7 @@ export default function Home() {
 
             <div className="row gx-4 gx-lg-5" id="services">
               <div className="col-md-4 mb-5">
-                <div className="card h-100">
+                <div className="card h-100 grow">
                   <div className="card-body">
                     <h3 className="card-title">Card One</h3>
                     <p className="card-text">
@@ -68,7 +68,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-5">
-                <div className="card h-100">
+                <div className="card h-100 grow">
                   <div className="card-body">
                     <h3 className="card-title">Card Two</h3>
                     <p className="card-text">
@@ -86,7 +86,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-4 mb-5">
-                <div className="card h-100">
+                <div className="card h-100 grow">
                   <div className="card-body">
                     <h3 className="card-title">Card Three</h3>
                     <p className="card-text">
@@ -104,7 +104,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <Row id="contact">
+          <Row id="contact" className="mt-5 mb-5">
             <Col className="d-flex align-items-center">
               <h2>How to reach us</h2>
             </Col>
@@ -122,11 +122,11 @@ export default function Home() {
               </p>
             </Col>
           </Row>
-          <Row id="about">
-            <Col>
+          <Row id="about" className="d-flex align-items-center">
+            <Col lg={5}>
               <Image src={solutions} alt="" />
             </Col>
-            <Col>
+            <Col lg={7}>
               <h3 className="text-center">
                 We Find Creative Solutions To Business Problems
               </h3>

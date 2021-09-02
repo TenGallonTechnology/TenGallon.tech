@@ -27,5 +27,14 @@ $theme-colors: (
   border-radius: 4px;
   padding: 1vw;
 }
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  border-color: $primary;
+  transform: scale(1.05);
+}
 // Import Bootstrap and its default variables
 @import "~bootstrap/scss/bootstrap.scss";

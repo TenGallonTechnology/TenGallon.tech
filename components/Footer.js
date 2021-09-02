@@ -11,11 +11,14 @@ export const Footer = () => {
     <Container className="bg-dark text-secondary overflow-hidden" fluid="true">
       <footer>
         <Row className="overflow-hidden">
-          <Col className="text-start">
+          <Col></Col>
+        </Row>
+        <Row>
+          <Col>
             <small>© 2021 PBITS </small>
           </Col>
           <Col>
-            <div style={{ width: "75px" }} className="float-end">
+            <div style={{ width: "65px" }} className="float-end">
               <a href="https://www.pbits.online">
                 <Image src={pbits} alt="PBITS" />
               </a>
