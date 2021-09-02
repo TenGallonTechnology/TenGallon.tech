@@ -16,7 +16,7 @@ export default function Home() {
         <main>
           <div className="row gx-4 gx-lg-5 align-items-center my-5">
             <div className="col-lg-7">
-              <Image src={solutions} />
+              <Image src={solutions} alt="" />
             </div>
             <div className="col-lg-5">
               <h1 className="font-weight-light ">PBITS</h1>
@@ -124,7 +124,7 @@ export default function Home() {
           </Row>
           <Row id="about">
             <Col>
-              <Image src={solutions} />
+              <Image src={solutions} alt="" />
             </Col>
             <Col>
               <h3 className="text-center">
@@ -143,7 +143,7 @@ export default function Home() {
                 important, we want to give you the tools to succeed in the
                 digital space. Our solutions are completely custom tailored to{" "}
                 <b>your</b> business. We understand that no one knows your
-                business like you do. That's why we work along side you to
+                business like you do. That&apos;s why we work along side you to
                 ensure expectations are not only met but that your ideas can
                 grow during the process!
               </p>
