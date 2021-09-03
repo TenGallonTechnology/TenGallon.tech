@@ -20,22 +20,26 @@ $theme-colors: (
   "dark": $dark,
 );
 
-.outline-info-bottom {
+.outline-info-top {
   border-color: $info;
 
-  border-bottom-style: solid;
+  border-top-style: solid;
   border-width: 1px;
-
+  margin-top: 2vw;
   padding: 1vw;
 }
 
 .grow {
   transition: all 0.2s ease-in-out;
+  box-shadow: 0px 0px 0px grey;
+  -webkit-transition: box-shadow 0.15s ease-out;
+  box-shadow: 0.8px 0.9px 3px grey;
 }
 
 .grow:hover {
   border-color: $primary;
   transform: scale(1.05);
+  box-shadow: 1px 8px 20px grey;
 }
 
 .btn-block {

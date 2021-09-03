@@ -44,21 +44,28 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <Row>
+            <Row id="services">
               <Col>
                 <h2 className="text-center">What We Offer</h2>
               </Col>
             </Row>
 
-            <div className="row" id="services">
+            <div className="row">
               <div className="col-md-4 mb-5">
                 <div className="card h-100 grow">
                   <div className="card-body">
-                    <h3 className="card-title">Card One</h3>
+                    <h3 className="card-title">Software Development</h3>
                     <p className="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Rem magni quas ex numquam, maxime minus quam molestias
-                      corporis quod, ea minima accusamus.
+                      We create websites to help your customers and you!
+                    </p>
+                    <p>
+                      Our websites will integrate any of the technology you're
+                      using to manage your business today. Providing a seamless
+                      experience to your customers.
+                    </p>
+                    <p>
+                      We also deliver websites or other software for your
+                      business operations to increase productivity.
                     </p>
                   </div>
                   <div className="card-footer">
@@ -71,12 +78,12 @@ export default function Home() {
               <div className="col-md-4 mb-5">
                 <div className="card h-100 grow">
                   <div className="card-body">
-                    <h3 className="card-title">Card Two</h3>
-                    <p className="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Quod tenetur ex natus at dolorem enim! Nesciunt pariatur
-                      voluptatem sunt quam eaque, vel, non in id dolore
-                      voluptates quos eligendi labore.
+                    <h3 className="card-title">Data Analytics</h3>
+                    <p className="card-text">Put your data to work for you!</p>
+                    <p>
+                      Every business collects data from their customers in some
+                      fashion. We can help you use that information to produce
+                      business value.
                     </p>
                   </div>
                   <div className="card-footer">
@@ -89,11 +96,18 @@ export default function Home() {
               <div className="col-md-4 mb-5">
                 <div className="card h-100 grow">
                   <div className="card-body">
-                    <h3 className="card-title">Card Three</h3>
+                    <h3 className="card-title">Consulting</h3>
                     <p className="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Rem magni quas ex numquam, maxime minus quam molestias
-                      corporis quod, ea minima accusamus.
+                      Let us be your partner in success!
+                    </p>
+                    <p>
+                      You may be planning a change or just starting out, but we
+                      can help guide you in making the technology choices along
+                      the way.
+                    </p>
+                    <p>
+                      We will be with you from start to finish, advising and
+                      helping as needed.
                     </p>
                   </div>
                   <div className="card-footer">
@@ -105,29 +119,15 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <Row id="contact" className="mt-5 mb-5 outline-info-bottom">
-            <Col lg={6} sm={12} className="text-center">
-              <h2>How to reach us</h2>
-            </Col>
-            <Col lg={2} sm={4}>
-              <a
-                href="mailto:pbits@gmail.com"
-                className="btn btn-outline-secondary btn-block "
-              >
-                <EnvelopeFill />
-                Email
-              </a>
-            </Col>
-            <Col lg={2} sm={4}>
-              <a
-                href="tel:4708510317"
-                className="btn btn-outline-secondary btn-block"
-              >
-                <PhoneFill />
-                Call
+          <Row className="mb-5">
+            <Col className="text-end">
+              <span>Questions About Our Services?</span>
+              <a className="btn btn-sm btn-outline-dark" href="#contact">
+                Contact Us
               </a>
             </Col>
           </Row>
+
           <Row id="about" className="d-flex align-items-center">
             <Col lg={5}>
               <Image src={solutions} alt="" />
@@ -154,6 +154,29 @@ export default function Home() {
                 grow during the process!
               </p>
               <p>Contact us today for a free consultation!</p>
+            </Col>
+          </Row>
+          <Row id="contact" className="mt-5 mb-5 outline-info-top">
+            <Col lg={6} sm={12} className="text-center">
+              <h2>How to reach us</h2>
+            </Col>
+            <Col lg={2} sm={4}>
+              <a
+                href="mailto:pbits.online@gmail.com"
+                className="btn btn-outline-secondary btn-block "
+              >
+                <EnvelopeFill />
+                Email
+              </a>
+            </Col>
+            <Col lg={2} sm={4}>
+              <a
+                href="tel:4708510317"
+                className="btn btn-outline-secondary btn-block"
+              >
+                <PhoneFill />
+                Call
+              </a>
             </Col>
           </Row>
         </main>
