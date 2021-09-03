@@ -130,7 +130,7 @@ export default function Home() {
 
           <Row id="about" className="d-flex align-items-center">
             <Col lg={5}>
-              <Image src={solutions} alt="" />
+              <Image src={about} alt="" />
             </Col>
             <Col lg={7}>
               <h3 className="text-center">
