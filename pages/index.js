@@ -59,9 +59,9 @@ export default function Home() {
                       We create websites to help your customers and you!
                     </p>
                     <p>
-                      Our websites will integrate any of the technology you're
-                      using to manage your business today. Providing a seamless
-                      experience to your customers.
+                      Our websites will integrate any of the technology
+                      you&apos;re using to manage your business today. Providing
+                      a seamless experience to your customers.
                     </p>
                     <p>
                       We also deliver websites or other software for your
