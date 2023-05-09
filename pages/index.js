@@ -17,10 +17,10 @@ export default function Home() {
         <main>
           <div className="row  align-items-center my-5 ">
             <div className="col-lg-7">
-              <Image src={solutions} alt="" />
+              <Image src={solutions} width={300} alt="" />
             </div>
             <div className="col-lg-5">
-              <h1 className="font-weight-light ">PBITS</h1>
+              <h1 className="font-weight-light ">Ten Gallon Technology</h1>
               <p>
                 We help small businesses compete in the digital space! We
                 provide services to your business so you can benefit from the
@@ -130,22 +130,22 @@ export default function Home() {
 
           <Row id="about" className="d-flex align-items-center">
             <Col lg={5}>
-              <Image src={about} alt="" />
+              <Image src={about} width={300} alt="" />
             </Col>
             <Col lg={7}>
               <h3 className="text-center">
                 We Find Creative Solutions To Business Problems
               </h3>
-              <hr></hr>
+              <hr/>
               <p>
                 We use the latest technologies to deliver first class products
                 to our customers.
               </p>
               <p>
-                PBITS started to address the competitive gap between our
+                Ten Gallon started to address the competitive gap between our
                 customers and the big guys. We are problem solvers in nature and
                 want to help you succeed. Founded in 2020, when the digital
-                prescence of small to medium businesses had never been more
+                presence of small to medium businesses had never been more
                 important, we want to give you the tools to succeed in the
                 digital space. Our solutions are completely custom tailored to{" "}
                 <b>your</b> business. We understand that no one knows your
@@ -162,7 +162,7 @@ export default function Home() {
             </Col>
             <Col lg={2} sm={4}>
               <a
-                href="mailto:pbits.online@gmail.com"
+                href="mailto:tengallon@gmail.com"
                 className="btn btn-outline-secondary btn-block "
               >
                 <EnvelopeFill />
@@ -171,7 +171,7 @@ export default function Home() {
             </Col>
             <Col lg={2} sm={4}>
               <a
-                href="tel:4708510317"
+                href="tel:4786978328"
                 className="btn btn-outline-secondary btn-block"
               >
                 <PhoneFill />

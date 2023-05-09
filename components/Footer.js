@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "next/image";
-import pbits from "../public/pbits.png";
+import logo from "../public/tengallon.png";
 
 import { Facebook, Instagram } from "react-bootstrap-icons";
 
@@ -11,16 +11,16 @@ export const Footer = () => {
     <Container className="bg-dark text-secondary overflow-hidden" fluid="true">
       <footer>
         <Row className="overflow-hidden">
-          <Col></Col>
+          <Col/>
         </Row>
         <Row>
           <Col>
-            <small>© 2021 PBITS </small>
+            <small>© 2020 Ten Gallon Tech </small>
           </Col>
           <Col>
-            <div style={{ width: "65px" }} className="float-end">
-              <a href="https://www.pbits.online">
-                <Image src={pbits} alt="PBITS" />
+            <div className="float-end">
+              <a href="https://www.tengallon.tech">
+                <Image src={logo} alt="Ten Gallon Logo" width={65}/>
               </a>
             </div>
           </Col>

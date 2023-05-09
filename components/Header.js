@@ -6,26 +6,26 @@ import { useRouter } from 'next/router';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-import logo from '../public/pbits.png';
+import logo from '../public/tengallon.png';
 
 export const Header = () => {
   const router = useRouter();
   return <>
     <Head>
-      <title>PBITS</title>
+      <title>Ten Gallon Technology</title>
       <meta
         name="description"
         content="A software company based in Dublin GA specializing in web development and data analytics"
       />
-      <link rel="canonical" href="https://www.pbits.online/" />
+      <link rel="canonical" href="https://www.tengallon.tech/" />
       <meta name="robots" content="index, follow" />
       <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-      <link rel="icon" href="/pbits.ico" />
+      <link rel="icon" href="/tengallon.png" />
     </Head>
 
     <Navbar bg="dark" variant="dark" expand="md">
-      <div style={{ width: '65px', marginLeft: '10px' }}>
-        <Image src={logo} alt="PBITS" />
+      <div className='p-1'>
+        <Image src={logo}  width={100} alt="TenGallon Logo" />
       </div>
 
       <Navbar.Toggle
