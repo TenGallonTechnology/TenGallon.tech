@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   // Static Site Generation (SSG) for optimal SEO and performance
   nitro: {
     prerender: {
-      routes: ['/sitemap.xml']
+      routes: ['/']
     }
   },
   
