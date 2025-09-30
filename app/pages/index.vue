@@ -101,7 +101,7 @@
             />
           </div>
           <div>
-            <h3 class="text-3xl font-bold text-center mb-6">
+            <h3 class="text-3xl font-bold font-mono text-center mb-6">
               We Find Creative Solutions To Business Problems
             </h3>
             <USeparator class="mb-6" />
@@ -119,10 +119,10 @@
       </section>
 
       <!-- Contact Section -->
-      <section id="contact" class="py-16 border-t-2 border-sky-500">
+      <section id="contact" class="py-10 border-t-1">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
           <div class="lg:col-span-2 text-center lg:text-left">
-            <h2 class="text-3xl font-bold">How to reach us</h2>
+            <h2 class="text-3xl font-bold font-mono">How to reach us</h2>
           </div>
           <div class="flex flex-col sm:flex-row gap-4">
             <UButton 
