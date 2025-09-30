@@ -1,24 +1,24 @@
 {
-  "name": "pbits.online",
-  "version": "0.1.0",
+  "name": "tengallon-tech",
+  "type": "module",
   "private": true,
+  "description": "Ten Gallon Technology - A software company specializing in web development and data analytics",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "bootstrap": "^5.1.0",
-    "next": "^13.4.1",
-    "react": "^18.2.0",
-    "react-bootstrap": "^1.6.1",
-    "react-bootstrap-icons": "^1.5.0",
-    "react-dom": "^18.2.0",
-    "sass": "^1.38.2"
-  },
-  "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "^13.4.1"
+    "@nuxt/eslint": "^1.9.0",
+    "@nuxt/image": "^1.11.0",
+    "@nuxt/ui": "^4.0.0",
+    "sharp": "^0.33.5",
+    "eslint": "^9.36.0",
+    "nuxt": "^4.1.2",
+    "typescript": "^5.9.2",
+    "vue": "^3.5.22",
+    "vue-router": "^4.5.1"
   }
 }
