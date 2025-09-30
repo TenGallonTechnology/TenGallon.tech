@@ -8,11 +8,19 @@
 # testing
 /coverage
 
-# next.js
-/.next/
-/out/
+# nuxt 4 / nitro build artifacts
+.nuxt
+.output
+.nitro
+dist
+/.cache
 
-# production
+# generated payload / build time assets
+public/build
+**/.payload.json
+**/.payload/*.json
+
+# legacy build dir (if previously used)
 /build
 
 # misc

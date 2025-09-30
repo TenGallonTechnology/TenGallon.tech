@@ -1,6 +1,6 @@
+/// <reference types="@nuxt/devtools" />
 /// <reference types="@nuxt/eslint" />
 /// <reference types="@nuxt/ui" />
-/// <reference types="@nuxt/devtools" />
 /// <reference types="@nuxt/image" />
 /// <reference types="@nuxt/telemetry" />
 /// <reference path="types/builder-env.d.ts" />
