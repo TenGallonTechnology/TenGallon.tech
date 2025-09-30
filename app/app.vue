@@ -3,11 +3,12 @@
     <NuxtRouteAnnouncer />
     <UHeader mode="drawer">
       <template #title>
-        <img
-          src="/tengallon.png"
+        <UColorModeImage
+          light='/tengallon-dark.png'
+          dark='/tengallon.png'
           alt="Ten Gallon Technology logo"
-          class="w-auto h-20"
-        >
+          class="w-auto h-13"
+        />
       </template>
       <UNavigationMenu :items="navItems" />
       <template #right>

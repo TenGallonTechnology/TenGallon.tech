@@ -46,25 +46,12 @@ export default defineNuxtConfig({
         { name: 'twitter:description', content: 'A software company based in Dublin GA specializing in web development and data analytics' }
       ],
       link: [
-        { rel: 'icon', type: 'image/png', href: '/tengallon.png' },
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         { rel: 'canonical', href: 'https://www.tengallon.tech/' }
       ]
     }
   },
-  
-  // Image optimization
-  image: {
-    format: ['webp', 'png', 'jpg'],
-    quality: 80,
-    screens: {
-      xs: 320,
-      sm: 640,
-      md: 768,
-      lg: 1024,
-      xl: 1280,
-      xxl: 1536
-    }
-  },
+
   
   // Build configuration
   // Vite configuration adjustments
